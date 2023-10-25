@@ -85,6 +85,8 @@ body {
   right: -2px;
 }
 
+/* верхняя секция top */
+
 .top {
   min-height: calc(100vh - 81px);
   background-image: url(../images/background-top.jpg);
@@ -136,3 +138,5 @@ body {
   padding: 20px 105px;
   color: #5c5c5e;
 }
+
+/* вторая секция features */
