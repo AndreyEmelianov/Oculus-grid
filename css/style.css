@@ -54,8 +54,8 @@ body {
 }
 
 .nav {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   align-items: center;
   height: 80px;
 }
@@ -67,6 +67,11 @@ body {
 
 .cart {
   position: relative;
+  justify-self: end;
+}
+
+.logo {
+  justify-self: center;
 }
 
 .cart--on span {
@@ -98,6 +103,7 @@ body {
 .title {
   padding-top: 16%;
   margin-bottom: 10px;
+  font-weight: 400;
   font-size: 96px;
   color: #5c5c5e;
 }
@@ -131,6 +137,7 @@ body {
 .buy-btn__text {
   color: #f6f4f5;
   padding: 20px 110px;
+  text-transform: uppercase;
 }
 
 .buy-btn__price {
@@ -140,3 +147,6 @@ body {
 }
 
 /* вторая секция features */
+.features {
+  padding: 100px 0;
+}
