@@ -16,3 +16,11 @@ const open = (e) => {
 };
 
 tabItems.forEach((tabItem) => tabItem.addEventListener('click', open));
+
+//menu burger
+const menuBtn = document.querySelector('.menu-btn');
+const menu = document.querySelector('.menu');
+
+menuBtn.addEventListener('click', () => {
+  menu.classList.toggle('menu--active');
+});
