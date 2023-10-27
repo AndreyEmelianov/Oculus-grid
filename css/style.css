@@ -620,6 +620,16 @@ body {
     grid-template-columns: repeat(2, 1fr);
     gap: 24px;
   }
+
+  .accessories__items {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+}
+@media (max-width: 820px) {
+  .equipment__box {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
 
 @media (max-width: 768px) {
@@ -632,7 +642,7 @@ body {
   }
 }
 
-@media (max-width: 568px) {
+@media (max-width: 640px) {
   .buy-btn {
     flex-direction: column;
     margin: 0 auto;
@@ -641,7 +651,9 @@ body {
   .top {
     text-align: center;
   }
+}
 
+@media (max-width: 568px) {
   .features__titles {
     display: block;
   }
@@ -658,6 +670,23 @@ body {
   .game__inner {
     grid-template-columns: repeat(1, 1fr);
     gap: 24px;
+  }
+
+  .equipment__box {
+    display: block;
+  }
+
+  .equipment__box-img {
+    width: 100%;
+  }
+
+  .equipment__box-text {
+    margin-bottom: 10px;
+  }
+
+  .accessories__items {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
   }
 }
 
