@@ -448,7 +448,7 @@ body {
   margin: 0 auto;
 }
 
-/* пятый блок с аксессуарами accessories */
+/* пятая секция с аксессуарами accessories */
 .accessories {
   margin-bottom: 100px;
 }
@@ -516,4 +516,70 @@ body {
   text-align: center;
   text-transform: uppercase;
   width: 100%;
+}
+
+/* шестая секция контакты */
+.contacts {
+  margin-bottom: 100px;
+}
+
+.contacts__title {
+  font-size: 24px;
+  line-height: 33px;
+  color: #070707;
+  margin-bottom: 10px;
+}
+
+.contacts__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.contacts__form {
+  flex-basis: 600px;
+}
+
+.contacts__text {
+  font-size: 13px;
+}
+
+.contact__email {
+}
+
+.form {
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.form__input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #cacad6;
+  padding: 22px 70px 22px 0;
+}
+
+.form__input::placeholder {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  color: #cacad6;
+}
+
+.form__btn {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #cacad6;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #5c5c5e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 0;
+  bottom: 5px;
 }
